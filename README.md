@@ -87,3 +87,12 @@
 - UI 层展示错误信息使用 SelectableText.rich
 - 网络错误需要展示重试操作
 - 空状态使用 BlankView 处理
+
+### 国际化语言处理
+如果开发中需要新增语文案，原始数据应当放置在`assets/translations/` 底下，文案数据为json格式，参考如下：
+```
+{
+  "text_hi": "你好",
+  "btn_login": "登录",
+}
+```
