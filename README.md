@@ -15,6 +15,7 @@
   ├── utils/          # 工具类
   └── widget/         # 组件类
 ```
+导入时应该使用`import 'package:minist/xx/xx.dart';` 绝对路径，不要使用相对路径
 
 ## 开发规范
 
